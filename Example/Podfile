@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'freetype2_Example' do
+  pod 'freetype2', :path => '../'
+
+  target 'freetype2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

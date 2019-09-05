@@ -22,7 +22,7 @@ pod 'freetype2'
 
 ## Author
 
-jiangzhoubai@gmail.com, baijiangzhou@zhihu.com
+jiangzhoubai@gmail.com
 
 ## License
 

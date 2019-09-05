@@ -1,0 +1,16 @@
+PODS:
+  - freetype2 (2.10.1)
+
+DEPENDENCIES:
+  - freetype2 (from `../`)
+
+EXTERNAL SOURCES:
+  freetype2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  freetype2: b124b87d39a7b05650f393b5eb51314db5635bb7
+
+PODFILE CHECKSUM: 5314f21cbf6dd7c37ba1c4a1d5ff0129854803af
+
+COCOAPODS: 1.7.4

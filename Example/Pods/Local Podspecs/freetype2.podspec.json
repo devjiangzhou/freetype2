@@ -1,0 +1,28 @@
+{
+  "name": "freetype2",
+  "version": "2.10.1",
+  "summary": "A short description of freetype2.",
+  "description": "iOS freetype",
+  "homepage": "https://github.com/jiangzhoubai@gmail.com/freetype2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiangzhoubai@gmail.com": "baijiangzhou@zhihu.com"
+  },
+  "source": {
+    "git": "https://github.com/jiangzhoubai@gmail.com/freetype2.git",
+    "tag": "2.10.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "freetype2/Classes/**/*",
+  "exclude_files": "freetype2/Classes/freetype/internal",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "freetype2/Classes/**"
+  },
+  "vendored_libraries": "freetype2/libfreetype.a",
+  "libraries": "z"
+}

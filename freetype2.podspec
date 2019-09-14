@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'freetype2'
-  s.version          = '2.10.1'
+  s.version          = '2.10.1.2'
   s.summary          = 'iOS freetype library'
 
 # This description is used to generate tags and improve search results.
@@ -26,8 +26,10 @@ Pod::Spec.new do |s|
   s.author           = { 'jiangzhoubai@gmail.com' => 'jiangzhou' }
   s.source           = { :git => 'https://github.com/devjiangzhou/freetype2.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
+  s.static_framework = true
+  
   s.source_files = 'freetype2/Classes/**/*'
 
   s.exclude_files = 'freetype2/Classes/freetype/internal'

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'freetype2'
-  s.version          = '2.10.1.2'
+  s.version          = '2.10.1.4'
   s.summary          = 'iOS freetype library'
 
 # This description is used to generate tags and improve search results.
@@ -34,10 +34,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'freetype' do |ss|
     ss.header_dir   = 'freetype'
-    ss.source_files = "freetype2/Classes/freetype/*.h",
+    ss.source_files = 'freetype2/Classes/freetype/*.h'
 
     ss.subspec 'config' do |sss|
-      sss.source_files = "freetype2/Classes/freetype/config/*.h",
+      sss.source_files = 'freetype2/Classes/freetype/config/*.h'
       sss.header_dir = 'config'
     end
   end

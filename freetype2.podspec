@@ -30,9 +30,17 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   
-  s.source_files = 'freetype2/Classes/**/*'
+  s.source_files = 'freetype2/Classes/*.h'
 
-  s.exclude_files = 'freetype2/Classes/freetype/internal'
+  s.subspec 'freetype' do |ss|
+    ss.header_dir   = 'freetype'
+    ss.source_files = "freetype2/Classes/freetype/*.h",
+
+    ss.subspec 'config' do |sss|
+      sss.source_files = "freetype2/Classes/freetype/config/*.h",
+      sss.header_dir = 'config'
+    end
+  end
 
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "freetype2/Classes/**" }
   

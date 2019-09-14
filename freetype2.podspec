@@ -32,6 +32,8 @@ Pod::Spec.new do |s|
   
   s.source_files = 'freetype2/Classes/*.h'
 
+  s.exclude_files = 'freetype2/Classes/freetype/internal'
+
   s.subspec 'freetype' do |ss|
     ss.header_dir   = 'freetype'
     ss.source_files = 'freetype2/Classes/freetype/*.h'
@@ -42,7 +44,7 @@ Pod::Spec.new do |s|
     end
   end
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "freetype2/Classes/**" }
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/freetype2/freetype2/Classes/**" }
   
   s.vendored_library = 'freetype2/libfreetype.a'
 

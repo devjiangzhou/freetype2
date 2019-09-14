@@ -21,11 +21,10 @@ Pod::Spec.new do |s|
   iOS freetype library
                        DESC
 
-  s.homepage         = 'https://github.com/jiangzhoubai@gmail.com/freetype2'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/devjiangzhou/freetype2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jiangzhoubai@gmail.com' => 'baijiangzhou@zhihu.com' }
-  s.source           = { :git => 'https://github.com/jiangzhoubai@gmail.com/freetype2.git', :tag => s.version.to_s }
+  s.author           = { 'jiangzhoubai@gmail.com' => 'jiangzhou' }
+  s.source           = { :git => 'https://github.com/devjiangzhou/freetype2.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 

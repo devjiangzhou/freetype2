@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'freetype2'
-  s.version          = '2.10.1.6'
+  s.version          = '2.10.1.7'
   s.summary          = 'iOS freetype library'
 
 # This description is used to generate tags and improve search results.
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
     end
   end
 
-  s.pod_target_xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/freetype2/freetype2/Classes/**" }
+  s.user_target_xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/freetype2/freetype2/Classes/**" }
 
   s.vendored_library = 'freetype2/libfreetype.a'
 

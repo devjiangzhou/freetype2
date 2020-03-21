@@ -1,1 +1,0 @@
-../../../../../freetype2/Classes/freetype/t1tables.h

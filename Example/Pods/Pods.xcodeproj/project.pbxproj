@@ -45,80 +45,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0647817A89E193A7C7C53AFB45AC3232 /* fttypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fttypes.h; sourceTree = "<group>"; };
-		097542E0674E595B52B882949C154341 /* t1tables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = t1tables.h; sourceTree = "<group>"; };
+		05355569A98115DFED31E8BD2C014A56 /* ftrender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftrender.h; path = freetype/Classes/freetype/ftrender.h; sourceTree = "<group>"; };
+		05EF4AAD20EB4BCA88A7E0632EC4CBFF /* fterrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fterrors.h; path = freetype/Classes/freetype/fterrors.h; sourceTree = "<group>"; };
+		073535F39064E1824D4CDAE6F233E4CC /* ftstroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftstroke.h; path = freetype/Classes/freetype/ftstroke.h; sourceTree = "<group>"; };
+		10056751BBA04EE96DE0A4508E3BB06E /* ttnameid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ttnameid.h; path = freetype/Classes/freetype/ttnameid.h; sourceTree = "<group>"; };
 		109BB48603011ECB9D457E704F2AE29E /* Pods-freetype2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-freetype2_Tests.modulemap"; sourceTree = "<group>"; };
-		16E60D7821A014D6D21E0CF7AAF8373A /* ftparams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftparams.h; sourceTree = "<group>"; };
+		159232E1A83048DBE9D763577C10D61B /* ftpfr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftpfr.h; path = freetype/Classes/freetype/ftpfr.h; sourceTree = "<group>"; };
+		18B49C4F279B3283D8EC9CF6A69F3F08 /* ftheader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftheader.h; path = freetype/Classes/freetype/config/ftheader.h; sourceTree = "<group>"; };
 		1A2C3FB73E81C301A7DC6E711CC40C05 /* Pods_freetype2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_freetype2_Example.framework; path = "Pods-freetype2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C28B4EBAD7638F07DA35D4938D6917C /* fterrdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fterrdef.h; sourceTree = "<group>"; };
-		2E6D6DBB003DC416805B95B45F9FB6FE /* ftbbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftbbox.h; sourceTree = "<group>"; };
+		1E1A2DBA384B19D95BFEEFB8202F3EB1 /* ftparams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftparams.h; path = freetype/Classes/freetype/ftparams.h; sourceTree = "<group>"; };
+		1E6FE84780531EAEDFB9283F5F0DCD43 /* t1tables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = t1tables.h; path = freetype/Classes/freetype/t1tables.h; sourceTree = "<group>"; };
+		1FF12864EAA6D3770D9895426306754D /* ftsynth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftsynth.h; path = freetype/Classes/freetype/ftsynth.h; sourceTree = "<group>"; };
+		21637E50B0E0E6521E832852EB02D82D /* ftstdlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftstdlib.h; path = freetype/Classes/freetype/config/ftstdlib.h; sourceTree = "<group>"; };
+		25FF5753D2ADB91C4599E375840F262B /* ftbdf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftbdf.h; path = freetype/Classes/freetype/ftbdf.h; sourceTree = "<group>"; };
+		2B4FFA315F3B5055FA363AEA7AB179B8 /* ftcolor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftcolor.h; path = freetype/Classes/freetype/ftcolor.h; sourceTree = "<group>"; };
+		2C8D63D59316F075CF22C906B26EA035 /* ftgxval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftgxval.h; path = freetype/Classes/freetype/ftgxval.h; sourceTree = "<group>"; };
+		2E9D1ABED0DB1BBAECA2D4F3F9EAC475 /* ftsystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftsystem.h; path = freetype/Classes/freetype/ftsystem.h; sourceTree = "<group>"; };
 		2EA43B141404D4C294AE16DE28572FB7 /* Pods_freetype2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_freetype2_Tests.framework; path = "Pods-freetype2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30BE46877F011E115ADDD5FC828E5746 /* ftgxval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftgxval.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4158E2916D440276898E734A0DD24C5A /* ftdriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftdriver.h; sourceTree = "<group>"; };
+		3518415CE719F0B540FEF5B6B649BDFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B4FE912CE6452079C3820604B7E9D47 /* freetype2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = freetype2.release.xcconfig; sourceTree = "<group>"; };
+		3D94D654713EEEE63FF6457B42C4631A /* ftgasp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftgasp.h; path = freetype/Classes/freetype/ftgasp.h; sourceTree = "<group>"; };
 		41D28DBF8E79FFDC1D8CAE64140DCD22 /* Pods-freetype2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-freetype2_Example.modulemap"; sourceTree = "<group>"; };
-		490F3EE1C47CE3DFE92DD23B840D1619 /* ftstdlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftstdlib.h; sourceTree = "<group>"; };
-		4E45E782851A0986D5803834F80296FB /* ftimage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftimage.h; sourceTree = "<group>"; };
+		438F9BACA0978386C08A72D50E9B34F6 /* fttrigon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fttrigon.h; path = freetype/Classes/freetype/fttrigon.h; sourceTree = "<group>"; };
+		44A557C00185A6AF0193CC505D6A97F5 /* ftotval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftotval.h; path = freetype/Classes/freetype/ftotval.h; sourceTree = "<group>"; };
+		46AFD2FC0E8E152CC157F1F1F3E36D89 /* ftoutln.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftoutln.h; path = freetype/Classes/freetype/ftoutln.h; sourceTree = "<group>"; };
+		46C3462952E30DA86C5C89D881D6D4F4 /* ftcache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftcache.h; path = freetype/Classes/freetype/ftcache.h; sourceTree = "<group>"; };
 		4E46B4A1FA88351757F1A27B485A1851 /* Pods-freetype2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-freetype2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F798856FD9416AC4F711B2F1FA24636 /* ftcid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftcid.h; sourceTree = "<group>"; };
-		5008201AF2B8C92246646A43BDF85E37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		53FFA59BD5D57998556F3B2DA1FB6E58 /* ftheader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftheader.h; sourceTree = "<group>"; };
+		4FBED8D0BEAEA9DBD75F11E0549B4FA3 /* ftmodapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftmodapi.h; path = freetype/Classes/freetype/ftmodapi.h; sourceTree = "<group>"; };
+		5288AD331F86AB8AC9098498AD0A09CD /* ftsizes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftsizes.h; path = freetype/Classes/freetype/ftsizes.h; sourceTree = "<group>"; };
+		5425201E11F18FE38BD98C79DBB41953 /* fttypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fttypes.h; path = freetype/Classes/freetype/fttypes.h; sourceTree = "<group>"; };
+		5568F605584885CEEF8DD0164CC11638 /* ftoption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftoption.h; path = freetype/Classes/freetype/config/ftoption.h; sourceTree = "<group>"; };
+		57250B6B45A963E3D00938211CAFE3E3 /* ftmodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftmodule.h; path = freetype/Classes/freetype/config/ftmodule.h; sourceTree = "<group>"; };
 		57A8E4D62F6552FDA2D1EFDDA03D728F /* Pods-freetype2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-freetype2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5898B371029CF4911C7BB5F267257533 /* freetype2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = freetype2.xcconfig; sourceTree = "<group>"; };
-		5CCCCEFF0A4B3C2DD32567DFC11516F9 /* ftmodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftmodule.h; sourceTree = "<group>"; };
-		60ADC3A67C4616B5B9DDB1002BD22958 /* ftfntfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftfntfmt.h; sourceTree = "<group>"; };
+		58DB69F4082E6218B5A7B1C8C0DAFCFB /* ftglyph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftglyph.h; path = freetype/Classes/freetype/ftglyph.h; sourceTree = "<group>"; };
+		5C5A7ED99B49D16BCA6E99F2A024A7E3 /* ftincrem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftincrem.h; path = freetype/Classes/freetype/ftincrem.h; sourceTree = "<group>"; };
+		5FBE73D9060F3E6C7E297BDE9075EBC1 /* ftlcdfil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftlcdfil.h; path = freetype/Classes/freetype/ftlcdfil.h; sourceTree = "<group>"; };
+		6037B487BCF8AF61D2578CE3242655A2 /* ftbzip2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftbzip2.h; path = freetype/Classes/freetype/ftbzip2.h; sourceTree = "<group>"; };
 		61F6C3043EFAD7F682CC2289B26CF664 /* Pods-freetype2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-freetype2_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D8702C8B2E6448CB75896B34821DF6C /* ftoutln.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftoutln.h; sourceTree = "<group>"; };
-		6F4F4A64BCDF06A5B36685E1BA1EDA17 /* ftsystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftsystem.h; sourceTree = "<group>"; };
-		749B5B498ECD6935681EBA24EDBE9341 /* ftconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftconfig.h; sourceTree = "<group>"; };
-		756AC4C7AA01106F928712EA019046B5 /* ftlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftlist.h; sourceTree = "<group>"; };
-		76E0F74277B91515AE3B2E72B4B2AECA /* fttrigon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fttrigon.h; sourceTree = "<group>"; };
+		6691E68028358C1B79CB677513D3A9EA /* freetype2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = freetype2.debug.xcconfig; sourceTree = "<group>"; };
+		6B666AB9497B3338B3E05F524247DD32 /* ftbitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftbitmap.h; path = freetype/Classes/freetype/ftbitmap.h; sourceTree = "<group>"; };
+		6E3CA222DCF12C387CAAF78AD0258907 /* tttables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tttables.h; path = freetype/Classes/freetype/tttables.h; sourceTree = "<group>"; };
 		7B239A6DCB3951E40A8EF07179D7F3EF /* Pods-freetype2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-freetype2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C4E579CD714897965A4A6F576EEA2FA /* freetype2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = freetype2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D8C74DAE93C9970BA3D81BF8506309C /* Pods-freetype2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-freetype2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		83B3D213BAC8CF3687ED827A178B2360 /* ftlcdfil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftlcdfil.h; sourceTree = "<group>"; };
-		84EAFCEAC536847CF561B6D6D901553A /* ftoption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftoption.h; sourceTree = "<group>"; };
-		8515B656A1BEC944E69707373D11A769 /* ttnameid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ttnameid.h; sourceTree = "<group>"; };
-		8601AD6141971D78554C2F141C21612D /* ft2build.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ft2build.h; path = freetype2/Classes/ft2build.h; sourceTree = "<group>"; };
+		7E387C9378CF5DB232BCC3D64FA427BB /* ftmoderr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftmoderr.h; path = freetype/Classes/freetype/ftmoderr.h; sourceTree = "<group>"; };
 		873E31E515BD6490D7C75C94F1BB1393 /* Pods-freetype2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-freetype2_Example-Info.plist"; sourceTree = "<group>"; };
-		89084BDEE19716569BAA5AD230DFF484 /* ftmoderr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftmoderr.h; sourceTree = "<group>"; };
-		8F8C762E57AB38A392DACDA0B30D7BAA /* ftsynth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftsynth.h; sourceTree = "<group>"; };
-		91BE0482F66F0F2717CFE106F493996A /* freetype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = freetype.h; sourceTree = "<group>"; };
-		91EF7A1AE69450C29131D8C3DFA882E9 /* ftlzw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftlzw.h; sourceTree = "<group>"; };
-		959081DB9C4BF2CA84C2C69A4332E3EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8CBA07AB89D8B1A64D7BAA8DC299E2A5 /* ftlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftlist.h; path = freetype/Classes/freetype/ftlist.h; sourceTree = "<group>"; };
 		9AA58E47DCB9D5F3E46A57EE61D68ACF /* Pods-freetype2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-freetype2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9AF0F9229BE09BBB7B830DDF7640CEFA /* Pods-freetype2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-freetype2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A199DD042D190F74FCE7CBA659831623 /* ftmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftmac.h; sourceTree = "<group>"; };
-		ACBBEDB6FC90793FCD31032588373A20 /* ftgasp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftgasp.h; sourceTree = "<group>"; };
+		A10493112ACA29E4E42279847E249A8A /* ftmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftmac.h; path = freetype/Classes/freetype/ftmac.h; sourceTree = "<group>"; };
+		A9F441FA51E38C2AA8B067DEFCB13AF0 /* ftlzw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftlzw.h; path = freetype/Classes/freetype/ftlzw.h; sourceTree = "<group>"; };
+		AC13DFE7CCF496507459F960E1356F64 /* ftimage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftimage.h; path = freetype/Classes/freetype/ftimage.h; sourceTree = "<group>"; };
 		ACFF79F1A99E466094FE35649F59D2A0 /* Pods-freetype2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-freetype2_Tests-dummy.m"; sourceTree = "<group>"; };
-		B409059966BC565A5509ED53336EE483 /* ftglyph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftglyph.h; sourceTree = "<group>"; };
-		B7FC2F8F5676FA0737A4FD544BFE8CA5 /* ftgzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftgzip.h; sourceTree = "<group>"; };
-		BAB210ACF3A37800053451E02DAC1B63 /* ftrender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftrender.h; sourceTree = "<group>"; };
-		BAD9E8D33A91CB1992E56C1EC4E683A9 /* ftmm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftmm.h; sourceTree = "<group>"; };
-		BF5B5756B35C0634C0A0218D4B804755 /* ftbdf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftbdf.h; sourceTree = "<group>"; };
 		C22D76B531DCB9AD916010B62CCA3590 /* Pods-freetype2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-freetype2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C32F4319689B3EBD0DB8CD24B160AE0C /* ftpfr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftpfr.h; sourceTree = "<group>"; };
-		C8D33D9E5B8B5EDB68313A86FF2889C7 /* ftadvanc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftadvanc.h; sourceTree = "<group>"; };
-		CABC6CB0607A4796947D4A52A90354EC /* ftincrem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftincrem.h; sourceTree = "<group>"; };
+		C822B53591469284BD8A20A15AC9A637 /* ftbbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftbbox.h; path = freetype/Classes/freetype/ftbbox.h; sourceTree = "<group>"; };
 		CCD1540BE319349AE5BA870E4029B655 /* Pods-freetype2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-freetype2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF2823A528D36A6DEC7786B6386E3F0E /* ftbitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftbitmap.h; sourceTree = "<group>"; };
-		CFF0AE83275C8D113A9384A9F71686DA /* ftwinfnt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftwinfnt.h; sourceTree = "<group>"; };
-		D2C4438EE041F811E884C25D69C0BB91 /* ftotval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftotval.h; sourceTree = "<group>"; };
-		D5828C6763EB42214C90E21A0FB639AB /* ftsnames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftsnames.h; sourceTree = "<group>"; };
-		D6EA3F7AAD38BACDBD771A4451F086E9 /* ftsizes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftsizes.h; sourceTree = "<group>"; };
-		D91A8A3199459D6EB76E4EEE119D1BD9 /* freetype2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = freetype2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D93A60D25592E8CF1020F1A55FB973E2 /* ftstroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftstroke.h; sourceTree = "<group>"; };
-		E306B0C1C9249BF9A4E6A41726DBAD39 /* libfreetype.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libfreetype.a; path = freetype2/libfreetype.a; sourceTree = "<group>"; };
-		E42D436ABA333F50D15CE147DD8A3102 /* ftcolor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftcolor.h; sourceTree = "<group>"; };
-		E5D1287B4780FECDB233D9BB636F30B6 /* tttables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tttables.h; sourceTree = "<group>"; };
-		E6ADB8EA5815233E93F4A266C2A7DD1D /* ftchapters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftchapters.h; sourceTree = "<group>"; };
+		CD34601E7EC6CE66CFFD5A7AD1AC32C6 /* ftgzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftgzip.h; path = freetype/Classes/freetype/ftgzip.h; sourceTree = "<group>"; };
+		D77CEE574340E53EB2DAE078B1DEA3E5 /* tttags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tttags.h; path = freetype/Classes/freetype/tttags.h; sourceTree = "<group>"; };
+		DC34225D2743F112837D3CAE43CC686E /* ftadvanc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftadvanc.h; path = freetype/Classes/freetype/ftadvanc.h; sourceTree = "<group>"; };
+		DD9C052E6A30AD1F0083FC6B889E2E2E /* ftdriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftdriver.h; path = freetype/Classes/freetype/ftdriver.h; sourceTree = "<group>"; };
+		E0263048BF1E224658E73D93FCD75248 /* ftmm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftmm.h; path = freetype/Classes/freetype/ftmm.h; sourceTree = "<group>"; };
+		E13384A7776FFCEDD29DD59DCA5ED8BE /* ftsnames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftsnames.h; path = freetype/Classes/freetype/ftsnames.h; sourceTree = "<group>"; };
+		E4B9DDCB60A4BDB86386F7A6E026E721 /* fterrdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fterrdef.h; path = freetype/Classes/freetype/fterrdef.h; sourceTree = "<group>"; };
+		E5C718BB329CCF628FB4FFFFD65136AA /* ftcid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftcid.h; path = freetype/Classes/freetype/ftcid.h; sourceTree = "<group>"; };
 		E791B5165B7291F079D457496271A20D /* Pods-freetype2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-freetype2_Example-dummy.m"; sourceTree = "<group>"; };
-		EC8EC0625CFF1144FD016A036A58C2B4 /* ftbzip2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftbzip2.h; sourceTree = "<group>"; };
-		F13504421391AF26FD1032CC4DDD29F4 /* fterrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fterrors.h; sourceTree = "<group>"; };
+		E7ED14B4C622BEB056DC702204B11E8E /* freetype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = freetype.h; path = freetype/Classes/freetype/freetype.h; sourceTree = "<group>"; };
+		E7EE4953456E1C3AFD0CB3DE6524E1B0 /* ftfntfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftfntfmt.h; path = freetype/Classes/freetype/ftfntfmt.h; sourceTree = "<group>"; };
+		E90B2604C6CD0E863E1806F00CACEAED /* ft2build.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ft2build.h; path = freetype/Classes/ft2build.h; sourceTree = "<group>"; };
+		F3DF571797E7A616FD59609C41D3ED25 /* ftchapters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftchapters.h; path = freetype/Classes/freetype/ftchapters.h; sourceTree = "<group>"; };
 		F6C488FA1C585CD4195E694BE7B3DE75 /* Pods-freetype2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-freetype2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F9F7F4C2FCD0EAB5211236ACB4253211 /* ftmodapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftmodapi.h; sourceTree = "<group>"; };
-		FC51DC82D01422410CCB2B3D56A55015 /* ftcache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ftcache.h; sourceTree = "<group>"; };
-		FC7A67FA8273768ED128F609293DC213 /* tttags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tttags.h; sourceTree = "<group>"; };
+		F7F6B3BFB12E02A9E54AB54246F4EB78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FA908CF16871ACDCA9BB093E974143EE /* ftwinfnt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftwinfnt.h; path = freetype/Classes/freetype/ftwinfnt.h; sourceTree = "<group>"; };
+		FC79CBCFED20EFD23B7055920C394B81 /* libfreetype.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libfreetype.a; path = freetype/libfreetype.a; sourceTree = "<group>"; };
+		FE499CB644A40610FC360BE0F420286A /* ftconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ftconfig.h; path = freetype/Classes/freetype/config/ftconfig.h; sourceTree = "<group>"; };
 		FFCEB49331FC86B933F908821E4492B1 /* Pods-freetype2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-freetype2_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,59 +143,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0357A57BA13F7B3B2F09BD97F3506865 /* freetype */ = {
-			isa = PBXGroup;
-			children = (
-				91BE0482F66F0F2717CFE106F493996A /* freetype.h */,
-				C8D33D9E5B8B5EDB68313A86FF2889C7 /* ftadvanc.h */,
-				2E6D6DBB003DC416805B95B45F9FB6FE /* ftbbox.h */,
-				BF5B5756B35C0634C0A0218D4B804755 /* ftbdf.h */,
-				CF2823A528D36A6DEC7786B6386E3F0E /* ftbitmap.h */,
-				EC8EC0625CFF1144FD016A036A58C2B4 /* ftbzip2.h */,
-				FC51DC82D01422410CCB2B3D56A55015 /* ftcache.h */,
-				E6ADB8EA5815233E93F4A266C2A7DD1D /* ftchapters.h */,
-				4F798856FD9416AC4F711B2F1FA24636 /* ftcid.h */,
-				E42D436ABA333F50D15CE147DD8A3102 /* ftcolor.h */,
-				4158E2916D440276898E734A0DD24C5A /* ftdriver.h */,
-				2C28B4EBAD7638F07DA35D4938D6917C /* fterrdef.h */,
-				F13504421391AF26FD1032CC4DDD29F4 /* fterrors.h */,
-				60ADC3A67C4616B5B9DDB1002BD22958 /* ftfntfmt.h */,
-				ACBBEDB6FC90793FCD31032588373A20 /* ftgasp.h */,
-				B409059966BC565A5509ED53336EE483 /* ftglyph.h */,
-				30BE46877F011E115ADDD5FC828E5746 /* ftgxval.h */,
-				B7FC2F8F5676FA0737A4FD544BFE8CA5 /* ftgzip.h */,
-				4E45E782851A0986D5803834F80296FB /* ftimage.h */,
-				CABC6CB0607A4796947D4A52A90354EC /* ftincrem.h */,
-				83B3D213BAC8CF3687ED827A178B2360 /* ftlcdfil.h */,
-				756AC4C7AA01106F928712EA019046B5 /* ftlist.h */,
-				91EF7A1AE69450C29131D8C3DFA882E9 /* ftlzw.h */,
-				A199DD042D190F74FCE7CBA659831623 /* ftmac.h */,
-				BAD9E8D33A91CB1992E56C1EC4E683A9 /* ftmm.h */,
-				F9F7F4C2FCD0EAB5211236ACB4253211 /* ftmodapi.h */,
-				89084BDEE19716569BAA5AD230DFF484 /* ftmoderr.h */,
-				D2C4438EE041F811E884C25D69C0BB91 /* ftotval.h */,
-				6D8702C8B2E6448CB75896B34821DF6C /* ftoutln.h */,
-				16E60D7821A014D6D21E0CF7AAF8373A /* ftparams.h */,
-				C32F4319689B3EBD0DB8CD24B160AE0C /* ftpfr.h */,
-				BAB210ACF3A37800053451E02DAC1B63 /* ftrender.h */,
-				D6EA3F7AAD38BACDBD771A4451F086E9 /* ftsizes.h */,
-				D5828C6763EB42214C90E21A0FB639AB /* ftsnames.h */,
-				D93A60D25592E8CF1020F1A55FB973E2 /* ftstroke.h */,
-				8F8C762E57AB38A392DACDA0B30D7BAA /* ftsynth.h */,
-				6F4F4A64BCDF06A5B36685E1BA1EDA17 /* ftsystem.h */,
-				76E0F74277B91515AE3B2E72B4B2AECA /* fttrigon.h */,
-				0647817A89E193A7C7C53AFB45AC3232 /* fttypes.h */,
-				CFF0AE83275C8D113A9384A9F71686DA /* ftwinfnt.h */,
-				097542E0674E595B52B882949C154341 /* t1tables.h */,
-				8515B656A1BEC944E69707373D11A769 /* ttnameid.h */,
-				E5D1287B4780FECDB233D9BB636F30B6 /* tttables.h */,
-				FC7A67FA8273768ED128F609293DC213 /* tttags.h */,
-				2C01EC66D9DC8231C8FF67D9AB522388 /* config */,
-			);
-			name = freetype;
-			path = freetype2/Classes/freetype;
-			sourceTree = "<group>";
-		};
 		07050E5BB82483FE987FED9C8C86484D /* Pods-freetype2_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,30 +159,79 @@
 			path = "Target Support Files/Pods-freetype2_Example";
 			sourceTree = "<group>";
 		};
-		174C0A3E00C95A5672F55484CA74277F /* freetype2 */ = {
+		09A5CDD1303D8DF4CBA5D90524DB1B78 /* freetype2 */ = {
 			isa = PBXGroup;
 			children = (
-				8601AD6141971D78554C2F141C21612D /* ft2build.h */,
-				CA227BCEC494C04ED8F3ADEDF3F43C84 /* Frameworks */,
-				0357A57BA13F7B3B2F09BD97F3506865 /* freetype */,
-				A479A88AC98D3D47B39629AF17FBDAFD /* Pod */,
-				C4135A88A01FB3E353C26DC03B66B412 /* Support Files */,
+				E90B2604C6CD0E863E1806F00CACEAED /* ft2build.h */,
+				C177715253DBC87B2A05127F59A64C20 /* Frameworks */,
+				0F4267022AA8F37C27E52EEDB30630BD /* freetype */,
+				341B06632DE304D2495762A9AFA0CB81 /* Pod */,
+				4EDDB360506485C9364F8BD55B00968D /* Support Files */,
 			);
 			name = freetype2;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2C01EC66D9DC8231C8FF67D9AB522388 /* config */ = {
+		0F4267022AA8F37C27E52EEDB30630BD /* freetype */ = {
 			isa = PBXGroup;
 			children = (
-				749B5B498ECD6935681EBA24EDBE9341 /* ftconfig.h */,
-				53FFA59BD5D57998556F3B2DA1FB6E58 /* ftheader.h */,
-				5CCCCEFF0A4B3C2DD32567DFC11516F9 /* ftmodule.h */,
-				84EAFCEAC536847CF561B6D6D901553A /* ftoption.h */,
-				490F3EE1C47CE3DFE92DD23B840D1619 /* ftstdlib.h */,
+				E7ED14B4C622BEB056DC702204B11E8E /* freetype.h */,
+				DC34225D2743F112837D3CAE43CC686E /* ftadvanc.h */,
+				C822B53591469284BD8A20A15AC9A637 /* ftbbox.h */,
+				25FF5753D2ADB91C4599E375840F262B /* ftbdf.h */,
+				6B666AB9497B3338B3E05F524247DD32 /* ftbitmap.h */,
+				6037B487BCF8AF61D2578CE3242655A2 /* ftbzip2.h */,
+				46C3462952E30DA86C5C89D881D6D4F4 /* ftcache.h */,
+				F3DF571797E7A616FD59609C41D3ED25 /* ftchapters.h */,
+				E5C718BB329CCF628FB4FFFFD65136AA /* ftcid.h */,
+				2B4FFA315F3B5055FA363AEA7AB179B8 /* ftcolor.h */,
+				DD9C052E6A30AD1F0083FC6B889E2E2E /* ftdriver.h */,
+				E4B9DDCB60A4BDB86386F7A6E026E721 /* fterrdef.h */,
+				05EF4AAD20EB4BCA88A7E0632EC4CBFF /* fterrors.h */,
+				E7EE4953456E1C3AFD0CB3DE6524E1B0 /* ftfntfmt.h */,
+				3D94D654713EEEE63FF6457B42C4631A /* ftgasp.h */,
+				58DB69F4082E6218B5A7B1C8C0DAFCFB /* ftglyph.h */,
+				2C8D63D59316F075CF22C906B26EA035 /* ftgxval.h */,
+				CD34601E7EC6CE66CFFD5A7AD1AC32C6 /* ftgzip.h */,
+				AC13DFE7CCF496507459F960E1356F64 /* ftimage.h */,
+				5C5A7ED99B49D16BCA6E99F2A024A7E3 /* ftincrem.h */,
+				5FBE73D9060F3E6C7E297BDE9075EBC1 /* ftlcdfil.h */,
+				8CBA07AB89D8B1A64D7BAA8DC299E2A5 /* ftlist.h */,
+				A9F441FA51E38C2AA8B067DEFCB13AF0 /* ftlzw.h */,
+				A10493112ACA29E4E42279847E249A8A /* ftmac.h */,
+				E0263048BF1E224658E73D93FCD75248 /* ftmm.h */,
+				4FBED8D0BEAEA9DBD75F11E0549B4FA3 /* ftmodapi.h */,
+				7E387C9378CF5DB232BCC3D64FA427BB /* ftmoderr.h */,
+				44A557C00185A6AF0193CC505D6A97F5 /* ftotval.h */,
+				46AFD2FC0E8E152CC157F1F1F3E36D89 /* ftoutln.h */,
+				1E1A2DBA384B19D95BFEEFB8202F3EB1 /* ftparams.h */,
+				159232E1A83048DBE9D763577C10D61B /* ftpfr.h */,
+				05355569A98115DFED31E8BD2C014A56 /* ftrender.h */,
+				5288AD331F86AB8AC9098498AD0A09CD /* ftsizes.h */,
+				E13384A7776FFCEDD29DD59DCA5ED8BE /* ftsnames.h */,
+				073535F39064E1824D4CDAE6F233E4CC /* ftstroke.h */,
+				1FF12864EAA6D3770D9895426306754D /* ftsynth.h */,
+				2E9D1ABED0DB1BBAECA2D4F3F9EAC475 /* ftsystem.h */,
+				438F9BACA0978386C08A72D50E9B34F6 /* fttrigon.h */,
+				5425201E11F18FE38BD98C79DBB41953 /* fttypes.h */,
+				FA908CF16871ACDCA9BB093E974143EE /* ftwinfnt.h */,
+				1E6FE84780531EAEDFB9283F5F0DCD43 /* t1tables.h */,
+				10056751BBA04EE96DE0A4508E3BB06E /* ttnameid.h */,
+				6E3CA222DCF12C387CAAF78AD0258907 /* tttables.h */,
+				D77CEE574340E53EB2DAE078B1DEA3E5 /* tttags.h */,
+				BEDD3B7AA6F16E04B2B896BDD62B5695 /* config */,
 			);
-			name = config;
-			path = config;
+			name = freetype;
+			sourceTree = "<group>";
+		};
+		341B06632DE304D2495762A9AFA0CB81 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C4E579CD714897965A4A6F576EEA2FA /* freetype2.podspec */,
+				F7F6B3BFB12E02A9E54AB54246F4EB78 /* LICENSE */,
+				3518415CE719F0B540FEF5B6B649BDFE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		472CAF9C75704B2E3293F166A17BB11B /* Targets Support Files */ = {
@@ -244,6 +241,16 @@
 				AF4C3FA12D2D1788BF604BFA8FD3682E /* Pods-freetype2_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4EDDB360506485C9364F8BD55B00968D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6691E68028358C1B79CB677513D3A9EA /* freetype2.debug.xcconfig */,
+				3B4FE912CE6452079C3820604B7E9D47 /* freetype2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/freetype2";
 			sourceTree = "<group>";
 		};
 		8F06C03E6438D44C811FD89CB0E9D252 /* Products */ = {
@@ -258,19 +265,9 @@
 		A24F20400474C0A6A6C1A62232B44959 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				174C0A3E00C95A5672F55484CA74277F /* freetype2 */,
+				09A5CDD1303D8DF4CBA5D90524DB1B78 /* freetype2 */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A479A88AC98D3D47B39629AF17FBDAFD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D91A8A3199459D6EB76E4EEE119D1BD9 /* freetype2.podspec */,
-				959081DB9C4BF2CA84C2C69A4332E3EF /* LICENSE */,
-				5008201AF2B8C92246646A43BDF85E37 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		AF4C3FA12D2D1788BF604BFA8FD3682E /* Pods-freetype2_Tests */ = {
@@ -289,6 +286,18 @@
 			path = "Target Support Files/Pods-freetype2_Tests";
 			sourceTree = "<group>";
 		};
+		BEDD3B7AA6F16E04B2B896BDD62B5695 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				FE499CB644A40610FC360BE0F420286A /* ftconfig.h */,
+				18B49C4F279B3283D8EC9CF6A69F3F08 /* ftheader.h */,
+				57250B6B45A963E3D00938211CAFE3E3 /* ftmodule.h */,
+				5568F605584885CEEF8DD0164CC11638 /* ftoption.h */,
+				21637E50B0E0E6521E832852EB02D82D /* ftstdlib.h */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,19 +306,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C4135A88A01FB3E353C26DC03B66B412 /* Support Files */ = {
+		C177715253DBC87B2A05127F59A64C20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5898B371029CF4911C7BB5F267257533 /* freetype2.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/freetype2";
-			sourceTree = "<group>";
-		};
-		CA227BCEC494C04ED8F3ADEDF3F43C84 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E306B0C1C9249BF9A4E6A41726DBAD39 /* libfreetype.a */,
+				FC79CBCFED20EFD23B7055920C394B81 /* libfreetype.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -408,6 +408,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 8F06C03E6438D44C811FD89CB0E9D252 /* Products */;
@@ -473,6 +474,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F336C838F9451C68CD3AA1291920CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4FE912CE6452079C3820604B7E9D47 /* freetype2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		36348BC573657AC394724FC0C12A4AD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CCD1540BE319349AE5BA870E4029B655 /* Pods-freetype2_Example.release.xcconfig */;
@@ -698,19 +713,18 @@
 			};
 			name = Debug;
 		};
-		9101CB9FC76FEA692BB9E8EB7953CD49 /* Release */ = {
+		E6157D5DE3949CBEEA75E8F31FA3E932 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5898B371029CF4911C7BB5F267257533 /* freetype2.xcconfig */;
+			baseConfigurationReference = 6691E68028358C1B79CB677513D3A9EA /* freetype2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		FB5861BE2C566B45244FD819941F2385 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -742,19 +756,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FD34D347C72F8712719DC8AB6F528D90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5898B371029CF4911C7BB5F267257533 /* freetype2.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -791,8 +792,8 @@
 		C1C4A64B6EE4F990EA3C3008EFADF548 /* Build configuration list for PBXAggregateTarget "freetype2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD34D347C72F8712719DC8AB6F528D90 /* Debug */,
-				9101CB9FC76FEA692BB9E8EB7953CD49 /* Release */,
+				E6157D5DE3949CBEEA75E8F31FA3E932 /* Debug */,
+				1F336C838F9451C68CD3AA1291920CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

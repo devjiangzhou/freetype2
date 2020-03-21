@@ -1,5 +1,9 @@
 PODS:
-  - freetype2 (2.10.1)
+  - freetype2 (2.10.1.10):
+    - freetype2/freetype (= 2.10.1.10)
+  - freetype2/freetype (2.10.1.10):
+    - freetype2/freetype/config (= 2.10.1.10)
+  - freetype2/freetype/config (2.10.1.10)
 
 DEPENDENCIES:
   - freetype2 (from `../`)
@@ -9,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  freetype2: b124b87d39a7b05650f393b5eb51314db5635bb7
+  freetype2: 35260f8363c624f880f6367f953a786478c806a5
 
 PODFILE CHECKSUM: 5314f21cbf6dd7c37ba1c4a1d5ff0129854803af
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.9.1

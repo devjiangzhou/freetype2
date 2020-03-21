@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'freetype2'
-  s.version          = '2.10.1.10'
+  s.version          = '2.10.1.11'
   s.summary          = 'iOS freetype library'
 
 # This description is used to generate tags and improve search results.
@@ -30,23 +30,23 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   
-  s.source_files = 'freetype2/Classes/*.h'
+  s.source_files = 'freetype/Classes/*.h'
 
-  s.exclude_files = 'freetype2/Classes/freetype/internal'
+  s.exclude_files = 'freetype/Classes/freetype/internal'
 
   s.subspec 'freetype' do |ss|
     ss.header_dir   = 'freetype'
-    ss.source_files = 'freetype2/Classes/freetype/*.h'
+    ss.source_files = 'freetype/Classes/freetype/*.h'
 
     ss.subspec 'config' do |sss|
-      sss.source_files = 'freetype2/Classes/freetype/config/*.h'
+      sss.source_files = 'freetype/Classes/freetype/config/*.h'
       sss.header_dir = 'config'
     end
   end
 
-  s.user_target_xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/freetype2/freetype2/Classes/**" }
+  s.user_target_xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/freetype2/freetype/Classes/**" }
 
-  s.vendored_library = 'freetype2/libfreetype.a'
+  s.vendored_library = 'freetype/libfreetype.a'
 
   s.libraries = "z"
 end

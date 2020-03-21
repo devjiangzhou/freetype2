@@ -1,1 +1,1 @@
-../../../../../freetype2/Classes/ft2build.h
+../../../../../freetype/Classes/ft2build.h

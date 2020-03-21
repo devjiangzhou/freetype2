@@ -1,0 +1,1 @@
+../../../../../../freetype/Classes/freetype/ftstroke.h

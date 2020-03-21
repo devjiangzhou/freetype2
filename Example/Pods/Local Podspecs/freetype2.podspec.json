@@ -1,28 +1,43 @@
 {
   "name": "freetype2",
-  "version": "2.10.1",
-  "summary": "A short description of freetype2.",
-  "description": "iOS freetype",
-  "homepage": "https://github.com/jiangzhoubai@gmail.com/freetype2",
+  "version": "2.10.1.10",
+  "summary": "iOS freetype library",
+  "description": "iOS freetype library",
+  "homepage": "https://github.com/devjiangzhou/freetype2",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "jiangzhoubai@gmail.com": "baijiangzhou@zhihu.com"
+    "jiangzhoubai@gmail.com": "jiangzhou"
   },
   "source": {
-    "git": "https://github.com/jiangzhoubai@gmail.com/freetype2.git",
-    "tag": "2.10.1"
+    "git": "https://github.com/devjiangzhou/freetype2.git",
+    "tag": "2.10.1.10"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "7.0"
   },
-  "source_files": "freetype2/Classes/**/*",
-  "exclude_files": "freetype2/Classes/freetype/internal",
-  "xcconfig": {
-    "HEADER_SEARCH_PATHS": "freetype2/Classes/**"
+  "static_framework": true,
+  "source_files": "freetype/Classes/*.h",
+  "exclude_files": "freetype/Classes/freetype/internal",
+  "user_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/freetype2/freetype/Classes/**"
   },
-  "vendored_libraries": "freetype2/libfreetype.a",
-  "libraries": "z"
+  "vendored_libraries": "freetype/libfreetype.a",
+  "libraries": "z",
+  "subspecs": [
+    {
+      "name": "freetype",
+      "header_dir": "freetype",
+      "source_files": "freetype/Classes/freetype/*.h",
+      "subspecs": [
+        {
+          "name": "config",
+          "source_files": "freetype/Classes/freetype/config/*.h",
+          "header_dir": "config"
+        }
+      ]
+    }
+  ]
 }
